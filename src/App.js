@@ -168,7 +168,7 @@ class App extends React.Component {
         <div className="flex w-screen justify-center flex-wrap">
             <div className="w-5/6 lg:w-2/3 xl:w-1/2 min-w-[580px]">
                 {/* Header */}
-                <h1 className="flex w-full font-sans mt-10 mb-6 text-gray-800">Vertmix Invoice Demo</h1>
+                <h1 className="flex w-full font-sans mt-10 mb-6 text-gray-800">Invoice Demo Software</h1>
                 {/* Phony Navigation Bar */}
                 <div className="flex w-full h-8 mb-4 bg-gray-600 font-sans font-semibold text-white leading-4 border border-gray-600 border-solid">
                     <div className="flex mx-2 items-center">Home</div>
