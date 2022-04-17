@@ -1,23 +1,24 @@
 {
-  "name": "vertmixtechassessment",
+  "name": "invoicedemo",
   "version": "1.0.0",
-  "description": "My submission for the technical assessment provided by Vertmix",
+  "description": "Front end invoice demo software built using ReactJS and styled with TailwindCSS",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --mode production"
+    "start": "node server.js",
+    "build": "webpack --mode production",
+    "run-dev-server": "webpack-dev-server --mode development --open --hot"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nathan7934/VertmixTechAssessment.git"
+    "url": "git+https://github.com/Nathan7934/InvoiceDemo"
   },
   "keywords": [],
   "author": "Nathan Raymant",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Nathan7934/VertmixTechAssessment/issues"
+    "url": "https://github.com/Nathan7934/InvoiceDemo/issues"
   },
-  "homepage": "https://github.com/Nathan7934/VertmixTechAssessment#readme",
+  "homepage": "https://github.com/Nathan7934/InvoiceDemo#readme",
   "devDependencies": {
     "@babel/core": "^7.17.8",
     "@babel/preset-env": "^7.16.11",
@@ -36,6 +37,7 @@
   },
   "dependencies": {
     "clsx": "^1.1.1",
+    "express": "^4.17.3",
     "react": "^18.0.0",
     "react-animate-height": "^2.0.23",
     "react-dom": "^18.0.0",
